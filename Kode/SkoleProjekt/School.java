@@ -2,32 +2,24 @@ public class School{
    
    public static void main(String[] args){
       //initialise student1
-      Student student1 = new Student("Kurt Cobain", "Heaven 42", 20);
+      Student student1 = new Student("Kurt Cobain", "Heaven 42", 25);
       Teacher teacher1 = new Teacher("Claus Bove", "Teachers Office 117");
-      
-      student1.printInfo();
-      
-      //change attributes of student1
-      student1.setStudentPhone("Heaven nor Hell");
       
       student1.printInfo();
       teacher1.printInfo();
       
-      System.out.println(Math.abs(3-5));
-      /*
-      Set exercise:
-      Call setName, setPhone method with appropriate values
-      Call printInfo method.
-      */
+      //change attributes of student1
+      student1.setStudentPhone("Heaven nor Hell");
+      student1.setStudentName("Volbeat");
+      student1.setStudentAge(666);
       
-      /* If exercise:
-      test if the teacher is Claus
-      - give him a warm greeting in the snow if so
-      - otherwise just write a normal greeting
-      do a check on age
-      combine check on name with check on age
-      use method to find out SU grant
-      */
+      //change attributes of teacher1
+      teacher1.setTeacherName("Jarl Tuxen");
+      teacher1.setTeacherPhone("Teachers Office 118");
+      
+      //printInfo
+      student1.printInfo();
+      teacher1.printInfo();
       
    }
 }

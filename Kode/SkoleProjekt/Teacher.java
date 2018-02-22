@@ -29,6 +29,12 @@ public class Teacher{
    public void printInfo(){
       System.out.println("Teacher name: " + name);
       System.out.println("Teacher phone: " + phone);
+      if (name == "Claus Bove"){
+         System.out.println("God skitur, Claus!");
+      }
+      else{
+         System.out.println("Lad os kode nu!");
+      }
       System.out.println();
    }
       
